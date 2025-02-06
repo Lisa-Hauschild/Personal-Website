@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(115, 170, 202, 0.5);
+}
+
+h1 {
+  text-decoration: underline overline rgb(63, 11, 130);
+}
+table,
+th,
+td {
+  border: 1px solid;
+  margin-top: 35px;
+}
+
+footer {
+  font-size: small;
+  padding: 100px;
+}
