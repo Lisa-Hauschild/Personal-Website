@@ -1,10 +1,18 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   text-align: center;
-  background-color: rgba(115, 170, 202, 0.5);
+  color: rgb(232, 222, 222);
+  font: size 1.25em;
+  background-image: url("https://images.pexels.com/photos/5069795/pexels-photo-5069795.png?auto=compress&cs=tinysrgb&w=800");
+  background-repeat: no-repeat;
+  width: fit-content;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+  background-color: rgb(74, 21, 123);
+}
+
+background-image {
+  https: //www.pexels.com/photo/close-up-of-bubbles-and-purple-color-5069795/;;
 }
 
 h1 {
@@ -15,9 +23,33 @@ th,
 td {
   border: 1px solid;
   margin-top: 35px;
+  text-align: center;
+}
+
+.info {
+  background-color: rgb(52, 106, 199);
+  border-radius: 0.8rem;
+  max-width: 500px;
 }
 
 footer {
   font-size: small;
   padding: 100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-width: 0.25rem;
+  border-radius: 10px;
+  font-size: larger;
+  table-layout: fixed;
+  width: 500px;
+  color: black;
+}
+th,
+td {
+  background-color: #96d4d4;
 }
