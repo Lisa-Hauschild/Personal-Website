@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  color: rgb(232, 222, 222);
+  font: size 1.25em;
+  background-image: url("https://images.pexels.com/photos/5069795/pexels-photo-5069795.png?auto=compress&cs=tinysrgb&w=800");
+  background-repeat: no-repeat;
+  width: fit-content;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right;
+}
